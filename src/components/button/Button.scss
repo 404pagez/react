@@ -1,0 +1,15 @@
+#common-button {
+    display: inline-block;
+
+    .btn {
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 0;
+        background-color: #00a0ff;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 0.7em;
+    }
+}
