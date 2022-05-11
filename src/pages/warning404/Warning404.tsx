@@ -3,7 +3,6 @@ import "./Warning404.stories";
 import classnames from "classnames";
 import "./Warning404.scss";
 import { Button } from "../../components";
-import { RiErrorWarningFill } from "react-icons/ri";
 
 export interface Warning404Props {
     size: number;
@@ -26,11 +25,14 @@ const Warning404 = ({
         <div id="warning-404" style={{ fontSize: `${size}px` }}>
             <div className="main-header">
                 4{" "}
-                <RiErrorWarningFill
-                    size={size * 3.4}
-                    color={typeof color === "string" ? color : "#000"}
-                    style={{ verticalAlign: "sub" }}
-                />{" "}
+                <div
+                    className="warning-icon"
+                    style={{
+                        backgroundColor: `${
+                            typeof color === "string" ? color : "#000"
+                        }`,
+                    }}
+                ></div>{" "}
                 4
             </div>
             <div className="body">Page Not Found</div>

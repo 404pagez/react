@@ -1,7 +1,7 @@
 {
     "name": "@404pagez/react",
-    "version": "0.0.2",
-    "description": "",
+    "version": "0.0.3",
+    "description": "This is templates of 404page for React",
     "keywords": [
         "react",
         "template",
@@ -69,7 +69,5 @@
         "dist"
     ],
     "types": "dist/index.d.ts",
-    "dependencies": {
-        "react-icons": "^4.3.1"
-    }
+    "dependencies": {}
 }

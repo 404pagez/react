@@ -12,4 +12,24 @@
     .btn-box {
         margin-top: 10px;
     }
+    .warning-icon {
+        background-color: #000;
+        width: 0.9em;
+        height: 0.9em;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        vertical-align: text-top;
+
+        &:after {
+            content: "!";
+            display: block;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            font-size: 0.8em;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+    }
 }

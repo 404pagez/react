@@ -20,3 +20,9 @@ size.args = {
     color: "red",
     isButton: true,
 };
+
+export const size20: any = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+size20.args = {
+    size: 20,
+};
