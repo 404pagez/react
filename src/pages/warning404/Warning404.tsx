@@ -1,28 +1,39 @@
 import React from "react";
-import "./Simple404.stories";
+import "./Warning404.stories";
 import classnames from "classnames";
-import "./Simple404.scss";
+import "./Warning404.scss";
 import { Button } from "../../components";
+import { RiErrorWarningFill } from "react-icons/ri";
 
-export interface Simple404Props {
+export interface Warning404Props {
     size: number;
     onButtonClick?: any;
     isButton?: boolean;
     buttonLabel?: string;
+    color?: string;
     buttonColor?: string;
 }
 
-const Simple404 = ({
+const Warning404 = ({
     size,
     onButtonClick,
     isButton,
     buttonLabel,
     buttonColor,
-}: Simple404Props) => {
+    color,
+}: Warning404Props) => {
     return (
-        <div id="simple-404" style={{ fontSize: `${size}px` }}>
-            <div className="main-header">4 0 4</div>
-            <div className="body">Oops! Page Not Found</div>
+        <div id="warning-404" style={{ fontSize: `${size}px` }}>
+            <div className="main-header">
+                4{" "}
+                <RiErrorWarningFill
+                    size={size * 3.4}
+                    color={typeof color === "string" ? color : "#000"}
+                    style={{ verticalAlign: "sub" }}
+                />{" "}
+                4
+            </div>
+            <div className="body">Page Not Found</div>
             {isButton && (
                 <div className="btn-box">
                     <Button
@@ -49,4 +60,4 @@ const Simple404 = ({
     );
 };
 
-export default Simple404;
+export default Warning404;
