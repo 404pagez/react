@@ -48,6 +48,7 @@ const NotFound = () => {
 ### Warning404 <a id=warning404></a>
 
 <img src="https://user-images.githubusercontent.com/9592408/168017173-ece897ad-e26f-416d-afd4-f4b4ad06d398.png" alt="warning404" width="400" />
+
 | props         | type       |                      |
 | ------------- | ---------- | -------------------- |
 | size          | number     | required             |
