@@ -1,5 +1,4 @@
 import React from "react";
-import "./Simple404.stories";
 import classnames from "classnames";
 import "./Simple404.scss";
 import { Button } from "../../components";
@@ -29,7 +28,7 @@ const Simple404 = ({
                         backgroundColor={
                             typeof buttonColor === "string"
                                 ? buttonColor
-                                : "#00a0ff"
+                                : "#000"
                         }
                         label={
                             typeof buttonLabel === "string"

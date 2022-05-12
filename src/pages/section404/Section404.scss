@@ -1,0 +1,50 @@
+#section-404 {
+    display: inline-block;
+
+    &:after {
+        display: block;
+        clear: both;
+    }
+
+    .left {
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+
+        .section-icon {
+            background-color: #000;
+            width: 6.3em;
+            height: 6.3em;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            vertical-align: text-top;
+
+            &:after {
+                content: "404";
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-size: 3em;
+                transform: translate(-50%, -50%);
+                color: #fff;
+            }
+        }
+    }
+    .right {
+        display: inline-block;
+        text-align: right;
+        margin-left: 30px;
+
+        .oops {
+            font-size: 2.2em;
+        }
+        .text {
+            font-size: 0.9em;
+        }
+        .btn-box {
+            margin-top: 1em;
+        }
+    }
+}

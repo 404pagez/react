@@ -23,5 +23,5 @@ export const size20: any = Template.bind({});
 size20.args = {
     size: 20,
     isButton: true,
-    buttonLabel: "test",
+    buttonLabel: "Home",
 };

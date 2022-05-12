@@ -1,5 +1,4 @@
 import React from "react";
-import "./Warning404.stories";
 import classnames from "classnames";
 import "./Warning404.scss";
 import { Button } from "../../components";
@@ -42,7 +41,7 @@ const Warning404 = ({
                         backgroundColor={
                             typeof buttonColor === "string"
                                 ? buttonColor
-                                : "#00a0ff"
+                                : "#000"
                         }
                         label={
                             typeof buttonLabel === "string"
