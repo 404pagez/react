@@ -74,6 +74,7 @@ const NotFound = () => {
 | color         | string     | optional(ex:#ffffff) |
 
 <br />
+
 ## License
 
 <a href="https://github.com/404pagez/react/blob/HEAD/LICENSE">MIT</a>
