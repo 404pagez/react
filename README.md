@@ -28,6 +28,8 @@ const NotFound = () => {
 -   [Simple404](#simple404)
 -   [Warning404](#warning404)
 -   [Section404](#section404)
+-   [Cat404](#cat404)
+-   [Blocked404](#blocked404)
 
 ## Props
 
@@ -72,6 +74,34 @@ const NotFound = () => {
 | buttonLabel   | string     | optional             |
 | buttonColor   | string     | optional(ex:#ffffff) |
 | color         | string     | optional(ex:#ffffff) |
+
+<br />
+
+### Cat404 <a id=cat404></a>
+
+<img src="https://user-images.githubusercontent.com/9592408/168426426-dd27e757-2ef6-4616-b124-ff26dabac793.png" alt="cat404" width="400"/>
+
+| props         | type       |                      |
+| ------------- | ---------- | -------------------- |
+| size          | number     | required             |
+| onButtonClick | () => void | optional             |
+| isButton      | boolean    | optional             |
+| buttonLabel   | string     | optional             |
+| buttonColor   | string     | optional(ex:#ffffff) |
+
+<br />
+
+### Blocked404 <a id=blocked404></a>
+
+<img src="https://user-images.githubusercontent.com/9592408/168426472-aef63d45-6002-4299-8401-91f0d10b6401.png" alt="blocked404" width="400"/>
+
+| props         | type       |                      |
+| ------------- | ---------- | -------------------- |
+| size          | number     | required             |
+| onButtonClick | () => void | optional             |
+| isButton      | boolean    | optional             |
+| buttonLabel   | string     | optional             |
+| buttonColor   | string     | optional(ex:#ffffff) |
 
 <br />
 

@@ -1,0 +1,25 @@
+#cat-404 {
+    display: inline-block;
+    text-align: center;
+
+    .main-header {
+        font-size: 3em;
+    }
+    .body {
+        font-size: 1em;
+        word-spacing: 0.1em;
+    }
+    .btn-box {
+        margin-top: 10px;
+    }
+    .cat-icon {
+        display: inline-block;
+        width: 1.2em;
+        border-radius: 50%;
+        vertical-align: middle;
+
+        .img {
+            border-radius: 50%;
+        }
+    }
+}

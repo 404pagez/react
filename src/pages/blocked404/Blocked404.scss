@@ -1,0 +1,36 @@
+#blocked-404 {
+    display: inline-block;
+
+    &:after {
+        display: block;
+        clear: both;
+    }
+
+    .left {
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        border-radius: 20px;
+        width: 9em;
+
+        .img {
+            border-radius: 20px;
+        }
+
+    }
+    .right {
+        display: inline-block;
+        text-align: right;
+        margin-left: 30px;
+
+        .oops {
+            font-size: 2.2em;
+        }
+        .text {
+            font-size: 0.9em;
+        }
+        .btn-box {
+            margin-top: 1em;
+        }
+    }
+}

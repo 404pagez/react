@@ -1,6 +1,6 @@
 {
     "name": "@404pagez/react",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "This is templates of 404page for React",
     "keywords": [
         "react",
@@ -9,7 +9,12 @@
         "404",
         "notfound",
         "404page",
-        "404pagez"
+        "404pagez",
+        "cat",
+        "blocked",
+        "warning",
+        "simple",
+        "section"
     ],
     "scripts": {
         "rollup": "rollup -c",
