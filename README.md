@@ -30,6 +30,7 @@ const NotFound = () => {
 -   [Section404](#section404)
 -   [Cat404](#cat404)
 -   [Blocked404](#blocked404)
+-   [Pepe404](#pepe404)
 
 ## Props
 
@@ -104,6 +105,25 @@ const NotFound = () => {
 | buttonColor   | string     | optional(ex:#ffffff) |
 
 <br />
+
+### Pepe404 <a id=pepe404></a>
+
+<img src="https://user-images.githubusercontent.com/9592408/168944793-115f0a2e-dfab-40e1-9c38-69d3eaa5626f.png" alt="pepe404" width="400"/>
+
+| props         | type       |                      |
+| ------------- | ---------- | -------------------- |
+| size          | number     | required             |
+| onButtonClick | () => void | optional             |
+| isButton      | boolean    | optional             |
+| buttonLabel   | string     | optional             |
+| buttonColor   | string     | optional(ex:#ffffff) |
+
+<br />
+
+## Contact
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40hee_dev)](https://twitter.com/hee_dev)
+
 
 ## License
 
